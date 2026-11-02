@@ -27,3 +27,7 @@ python cases/case07.py
 - `data/` – завантажувачі відкритих наборів даних NASA C-MAPSS (`cmapss.py`) і MovieLens 100K (`movielens.py`);
   самі набори завантажте вручну з сайтів NASA і GroupLens, без них програми працюють на демонстраційних файлах.
 - `tests/tests_moodle.gift` – тести для самоконтролю у форматі GIFT для імпорту в банк запитань Moodle.
+
+## Ліцензія / License
+
+Код поширюється за ліцензією MIT – див. [LICENSE](LICENSE). The code is released under the MIT License, see [LICENSE](LICENSE).
