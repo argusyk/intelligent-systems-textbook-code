@@ -1,0 +1,8 @@
+@prefix apu:  <http://example.org/apu#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+apu:APU          rdfs:subClassOf  apu:GasTurbineEngine .
+apu:unit123      a                apu:APU ;
+                 apu:hasPart      apu:turbine123 ;
+                 apu:measuredEGT  "705"^^<http://www.w3.org/2001/XMLSchema#integer> .
+apu:turbine123   a                apu:Turbine .

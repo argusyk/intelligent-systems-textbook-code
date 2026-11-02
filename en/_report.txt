@@ -1,0 +1,112 @@
+OK   code\ch01\listing_01.py: ['H1: dirty fuel nozzles']
+OK   code\ch01\listing_02.py: properties that all systems lack: none
+OK   code\ch02\listing_01.py: accuracy on 100 flowers: 1.00
+OK   code\ch03\listing_01.py: R3: ['fuel_nozzles_dirty'] -> action_clean_nozzles
+OK   code\ch03\listing_02.py: most correlated constructs: 'vibration' and 'oil pressure drop', r = 0.85
+OK   code\ch03\listing_03.py: recommendations: ['advice:_enter_new_password', 'advice:_restart_network_adapter']
+OK   code\ch04\listing_01.py: True -25
+--   code\ch04\listing_02.ttl: not checked (ttl)
+OK   code\ch04\listing_03.py:   weak starter: 1, 2
+OK   code\ch04\listing_04.py: cycles in the curriculum: none
+OK   code\ch05\listing_01.py: (False, {'e': True, 's': False, 'n': False})
+--   code\ch05\listing_02.pl: not checked (pl)
+OK   code\ch05\listing_03.py: there are violations
+OK   code\ch06\listing_01.py: None
+OK   code\ch06\listing_02.py: Does EGT exceed 680 °C? (yes/no/why): Is the start longer than 45 s? (yes/no/why): H1 conf
+OK   code\ch06\listing_03.py: => scholarship proved by option 2
+OK   code\ch07\listing_01.py: |   |   |--- class: yes
+OK   code\ch07\listing_02.py: |   |   |   |--- class: 1
+OK   code\ch08\listing_01.py: [ 1  1  1  0 -2 -1]
+OK   code\ch08\listing_02.py: (14, ['S', 'A', 'D', 'G'])
+OK   code\ch08\listing_03.py:   03:00-04:00  test run        (mechanics)
+OK   code\ch08\listing_04.py: 9. test run
+OK   code\ch08\listing_05.py: .#***#.##G
+OK   code\ch09\listing_01.py: high fuel flow   0.851 0.142 0.001 0.004 0.001 0.002
+OK   code\ch09\listing_02.py: P(spam) = 0.734  <- Confirm the password to your account today
+OK   code\ch10\listing_01.py: ['washed_recently'] -> -0.60; total +0.130
+OK   code\ch10\listing_02.py: INC-103: CF = -0.66 -> close
+OK   code\ch11\listing_01.py: priorities A1..A3: [0.222 0.366 0.412]
+OK   code\ch11\listing_02.py: worst CR among the alternative matrices: 0.033
+OK   code\ch12\listing_01.py: 60.6
+OK   code\ch12\listing_02.py: rule 9: IF EGT high AND start prolonged, THEN risk = 21.7 +20.1*x1 +20.6*x2
+OK   code\ch12\listing_03.py: debt  70 %, history  9: risk 86.7
+OK   code\ch13\listing_01.py: with a leaking feature       F1 = 0.965
+OK   code\ch13\listing_02.py: random forest        F1 = 0.868 +- 0.018
+OK   code\ch13\listing_03.py: at threshold 0.04: recall=0.817 precision=0.200
+OK   code\ch13\listing_04.py: logistic + |EGT-fuel| F1 = 0.855  ROC AUC = 0.974
+OK   code\ch13\listing_05.py: correlation of PC2 with load and wear: -0.48 0.8
+OK   code\ch13\listing_06.py: artificial failures detected: [100, 101, 250] of [100, 101, 250]
+OK   code\ch14\listing_01.py: [0.    0.999 0.999 0.002]
+OK   code\ch14\listing_02.py: most frequent confusions (true, predicted, count): [(3, 2, 2), (4, 8, 2), (6, 1, 2), (8, 1
+OK   code\ch15\listing_01.py: game value: 3.0 service strategy: [0.333 0.667]
+OK   code\ch15\listing_02.py: alpha-beta  game value = +0, positions examined: 18297
+OK   code\ch15\listing_03.py: P(targeted) = 0.55: Bayes -> full protection + SOC
+OK   code\ch16\listing_01.clp: rules fired: 8; ['(hyp (name H1-nozzles) (cf 0.85))', '(hyp (name H2-governor) (cf 0.6))']
+FAIL code\ch16\listing_02.py: TypeError: "Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorizat
+OK   code\ch16\listing_03.py: what is the weather in Kyiv -> no answer in the base: forward to an operator
+OK   code\labs\listing_01.py: 
+--   code\labs\listing_02.pl: not checked (pl)
+OK   code\labs\listing_03.py: 
+FAIL code\labs\listing_04.py: NameError: name 'sim' is not defined. Did you mean: 'sum'?
+FAIL code\labs\listing_05.py: NameError: name 'LogisticRegression' is not defined
+OK   code\labs\listing_06.py: Bayes          [28.7 33.5 61.1]  ->  A1
+OK   code\labs\listing_07.py: recall@1, MRR: (0.25, 0.583)
+OK   code\labs\listing_08.py: lower bounds for forecasts of 80 and 40: [62.4 22.4]
+OK   code\labs\listing_09.py: strong shift         PSI = 1.126
+OK   code\labs\listing_10.py: {'positive rates': array([0.488, 0.323]), 'ratio': 0.662, 'equal opportunity': array([0.76
+OK   code\cases\case01.py: properties that all systems lack: none
+OK   code\cases\case02.py: accuracy on 100 flowers: 1.00
+OK   code\cases\case03.py: recommendations: ['advice:_enter_new_password', 'advice:_restart_network_adapter']
+OK   code\cases\case04.py: cycles in the curriculum: none
+OK   code\cases\case05.py: there are violations
+OK   code\cases\case06.py: => scholarship proved by option 2
+OK   code\cases\case07.py: |   |   |   |--- class: 1
+OK   code\cases\case08.py: .#***#.##G
+OK   code\cases\case09.py: P(spam) = 0.734  <- Confirm the password to your account today
+OK   code\cases\case10.py: INC-103: CF = -0.66 -> close
+OK   code\cases\case11.py: worst CR among the alternative matrices: 0.033
+OK   code\cases\case12.py: debt  70 %, history  9: risk 86.7
+OK   code\cases\case13.py: artificial failures detected: [100, 101, 250] of [100, 101, 250]
+OK   code\cases\case14.py: most frequent confusions (true, predicted, count): [(3, 2, 2), (4, 8, 2), (6, 1, 2), (8, 1
+OK   code\cases\case15.py: P(targeted) = 0.55: Bayes -> full protection + SOC
+OK   code\cases\case16.py: what is the weather in Kyiv -> no answer in the base: forward to an operator
+OK   code\cases\case17.py: accuracy 9/10, retries 4, failures 0
+OK   code\cases\case18.py: held-out week        interval ±16.0 kWh, test coverage 0.89 (target 0.90)
+OK   code\cases\case19.py: {'number': '2026/77', 'date': '15.09.2026', 'RNOKPP': '3012456789', 'IBAN': 'UA50322001100
+OK   code\cases\case20.py: catalogue coverage of the recommendations: popular 10 of 120, similar 73 of 120
+OK   code\cases\case21.py: convolutional network:          accuracy 0.875
+OK   code\cases\case22.py: final penalty: 0 | classes in the last period: 0
+OK   code\cases\case23.py: month 6: PSI = 0.488 (strong shift) ROC AUC = 0.571, default rate 0.23
+OK   code\cases\case24.py: prediction 357; below 200 if BMI is lowered by 0.3 and triglycerides by 1.7 standard devia
+OK   code\cases\case25.py: target = performance, test selected A/B 0.33/0.33 (ratio 1.00); successful selected A/B 0.
+OK   code\cases\case26.py: weight of the 'known domain' feature: -0.14 -> -7.32
+OK   code\ch17\agent.py: The most likely cause: fouled nozzles (CF = 0.85, rules R5, R12). I recommend inspecting a
+OK   code\ch17\attention.py: layer output for 'slow': [-0.29  0.94 -0.64  0.42]
+OK   code\ch17\evaluate.py: fact recall 0.75; safe 3/4; citing a rule 3/4
+OK   code\ch17\mcp_server.py:  search_manual: [{'section': '49-50', 'text': 'Oil system. The normal oil pressure in the 
+OK   code\ch17\multiagent.py: Result: Unit UR-PSA: probable cause is fouled nozzles, CF = 0.85 (rules R5, R12). On-wing 
+OK   code\ch17\rag.py: fabricated answer: groundedness 0.29
+OK   code\ch18\forecast.py: Holt (trend)         MAE = 4.06
+OK   code\ch18\intervals.py: level 95%: margin q =  26.5 cycles, test coverage 0.95, mean lower bound  57.9 with a mean
+OK   code\ch18\rul.py: random forest      RMSE =  12.0 cycles   NASA score =    64.7   late forecasts 9/20
+OK   code\ch18\state_models.py: state switches: thresholds 36 , HMM 2
+OK   code\ch19\journal.py: 73  <- Engine 1 fuel pump replaced
+OK   code\ch19\llm_extract.py: matches the schema: (True, [])
+OK   code\ch19\ukr_text.py: скільки триває промивка форсунок, м'ята 'інструкція'?
+OK   code\ch20\next_check.py: after ['oil filter']: [('bearing', 1.0), ('nozzles', 0.29), ('starter', 0.0)]
+OK   code\ch20\recsys.py: matrix factorisation   RMSE = 0.584   precision@2 = 0.43
+OK   code\ch21\conv_demo.py:  [0 4 0]]
+OK   code\ch21\defects_cnn.py: multilayer perceptron      parameters  65795   test accuracy 0.510
+OK   code\ch22\ga_route.py: nearest neighbour: 3892 m;  genetic algorithm: 3297 m;  random route: 7786 m
+OK   code\ch22\ga_tasks.py: best benefit at generations 0, 10, 50, 149: [133, 210, 212, 212]
+OK   code\ch23\drift.py: July (heat)     egt: PSI=0.400 p=0.000 DRIFT | start_time: PSI=0.019 p=0.880 normal
+OK   code\ch23\service.py: 
+OK   code\ch23\test_service.py: input error EGT = 7050: 422 Input should be less than or equal to 900
+OK   code\ch23\train_and_package.py: }
+OK   code\ch24\explain.py: accuracy of reproducing the forest by the surrogate tree on the test: 0.955
+OK   code\ch25\fairness.py: 4) + threshold for B = 0.36        approved A 0.49 B 0.41 | DI = 0.85 | TPR A 0.75 B 0.77 
+OK   code\ch26\adversarial.py: digit 3: predicted 3 -> after the attack 2
+OK   code\ch26\poisoning.py: backdoor: recall on clean data 0.918, on faulty units with the trigger 0.017
+OK   code\ch26\privacy.py: F1 federated model: 0.833; F1 centralised (all data together): 0.831
+OK   code\data\cmapss.py: {'min': 165.0, 'mean': 242.0, 'max': 277.0}
+OK   code\data\movielens.py: users 50, movies 80, ratings 811, matrix density 20.3%

@@ -1,0 +1,1666 @@
+// Self-assessment tests for the textbook "Intelligent Systems"
+$CATEGORY: Intelligent Systems
+
+// Chapter 1, question 1
+::C1.1:: What distinguishes knowledge from information in the "data – information – knowledge" hierarchy? {
+~knowledge is always numeric, while information is text
+~knowledge takes up more memory than information
+~knowledge needs no context and is equally clear to everyone
+=knowledge contains regularities that make it possible to draw conclusions and act
+}
+
+// Chapter 1, question 2
+::C1.2:: Which property is NOT a characteristic feature of an intelligent system? {
+~work with incomplete and inaccurate input information
+~the ability to explain the conclusions obtained to the user
+=executing only a rigidly programmed algorithm
+~the ability to learn from new data and experience
+}
+
+// Chapter 1, question 3
+::C1.3:: What is an expert system? {
+~a database that stores the contacts and qualifications of the organization's experts for quick search
+=a system that uses specialists' knowledge to solve problems in a narrow domain
+~any program with a graphical interface for specialists in a field
+~a neural network trained on big data without human involvement
+}
+
+// Chapter 1, question 4
+::C1.4:: Which task is a diagnostic task? {
+~forecasting exchange rates
+=determining the cause of a fault from symptoms
+~controlling the temperature in a room
+~drawing up a class timetable
+}
+
+// Chapter 1, question 5
+::C1.5:: The cycle of an intelligent agent consists of the steps\: {
+~compilation – execution – debugging
+~data collection – archiving – deletion
+~request – response – payment
+=perception – reasoning – action
+}
+
+// Chapter 1, question 6
+::C1.6:: Declarative knowledge is knowledge about {
+=what is true in the domain
+~how to perform a sequence of actions
+~how to control one's own reasoning
+~which data are stored in the database
+}
+
+// Chapter 1, question 7
+::C1.7:: The textbook's training expert system APU-Expert is intended for {
+=diagnosing faults of an aircraft auxiliary power unit
+~selling air tickets and booking seats on flights
+~automatic control of the aircraft engine in flight
+~planning the flight and crew schedule of an airline
+}
+
+// Chapter 1, question 8
+::C1.8:: Metaknowledge is {
+~the most important facts of the domain
+~knowledge obtained from the internet
+=knowledge about how to use other knowledge
+~knowledge recorded in file metadata
+}
+
+// Chapter 2, question 1
+::C2.1:: Who proposed a test of a machine's ability to think through conversation? {
+~Claude Shannon
+=Alan Turing
+~Norbert Wiener
+~John von Neumann
+}
+
+// Chapter 2, question 2
+::C2.2:: At which 1956 conference did the term "artificial intelligence" appear? {
+~the Paris conference on cybernetics
+~the Kyiv conference on computing
+~the Cambridge conference
+=the Dartmouth conference
+}
+
+// Chapter 2, question 3
+::C2.3:: What caused the first artificial intelligence "winter"? {
+=unjustified expectations and the limitations of early methods
+~the lack of computers suitable for computation
+~the too rapid commercial success of expert systems
+~a ban on artificial intelligence research by governments
+}
+
+// Chapter 2, question 4
+::C2.4:: Rosenblatt's perceptron cannot learn the function {
+~NOT
+=XOR
+~AND
+~OR
+}
+
+// Chapter 2, question 5
+::C2.5:: Which of these systems was an expert system for diagnosing infections? {
+~DENDRAL
+~ELIZA
+=MYCIN
+~XCON
+}
+
+// Chapter 2, question 6
+::C2.6:: The group method of data handling was proposed by {
+~M. M. Amosov
+~S. O. Lebedev
+=O. H. Ivakhnenko
+~V. M. Glushkov
+}
+
+// Chapter 2, question 7
+::C2.7:: The symbolic approach to artificial intelligence is based on {
+~random search for solutions without any knowledge
+~modelling the work of biological neurons of the brain
+~statistical processing of large data sets
+=explicit representation of knowledge by symbols and rules
+}
+
+// Chapter 2, question 8
+::C2.8:: What caused the second artificial intelligence "winter" at the end of the 1980s? {
+=the high cost and complexity of maintaining expert systems
+~a ban on the Lisp language in US government projects
+~the advent of the internet, which diverted attention from AI
+~the invention of deep learning, which displaced rules
+}
+
+// Chapter 3, question 1
+::C3.1:: Which component of an expert system contains the facts of the current situation? {
+=working memory
+~knowledge base
+~knowledge acquisition subsystem
+~knowledge engineer interface
+}
+
+// Chapter 3, question 2
+::C3.2:: The operating cycle of an inference engine with productions is called the cycle {
+~request – response
+=recognise – act
+~train – test
+~compile
+}
+
+// Chapter 3, question 3
+::C3.3:: The "why?" explanation answers the question {
+~which expert developed the system
+~how many rules the knowledge base contains
+~how the system obtained its conclusion
+=why the system is asking for a certain fact
+}
+
+// Chapter 3, question 4
+::C3.4:: Who in the development team formalises the expert's knowledge? {
+~the database administrator
+~the tester
+=the knowledge engineer
+~the end user
+}
+
+// Chapter 3, question 5
+::C3.5:: The bottleneck in building expert systems is traditionally considered to be {
+~choosing a programming language
+=knowledge acquisition
+~printing reports
+~drawing conclusions
+}
+
+// Chapter 3, question 6
+::C3.6:: The repertory grid method makes it possible to reveal {
+~errors in the code of the expert system program
+~the speed of the inference engine on typical queries
+=the constructs by which the expert distinguishes objects
+~the number of rules that must be written into the base
+}
+
+// Chapter 3, question 7
+::C3.7:: During think-aloud reasoning the expert {
+=solves a real task, saying every thought out loud
+~fills in a questionnaire with closed questions about experience
+~gives a lecture on the domain to students
+~checks the system code together with the knowledge engineer
+}
+
+// Chapter 3, question 8
+::C3.8:: A dynamic expert system differs from a static one in that it {
+~it is written in Python rather than in CLIPS
+~it has no knowledge base and works only with data
+~it has a graphical interface with animated conclusions
+=takes into account changes of data over time during operation
+}
+
+// Chapter 4, question 1
+::C4.1:: A production rule has the form {
+~slot – demon
+=IF condition, THEN conclusion
+~object – attribute – value
+~class – subclass
+}
+
+// Chapter 4, question 2
+::C4.2:: A semantic network represents knowledge as {
+~a sequence of commands for the inference engine
+~a decision table with conditions and actions
+=a graph of concepts and the relations between them
+~a system of equations with unknown concepts
+}
+
+// Chapter 4, question 3
+::C4.3:: A frame slot is {
+~a semantic network node without any links
+=an attribute of the frame together with its value or procedure
+~an inference rule that links two frames
+~a separate prototype frame from which others inherit
+}
+
+// Chapter 4, question 4
+::C4.4:: An IF-NEEDED demon procedure is executed when {
+=the value of the slot is needed but not given
+~the system finishes its work and saves the frames
+~a new instance frame is created in the network
+~the slot is deleted from the frame together with its value
+}
+
+// Chapter 4, question 5
+::C4.5:: An ontology is {
+~a set of tests that checks the correctness of the knowledge base
+~a programming language for writing expert system rules
+~any relational database with tables of the domain
+=an explicit formal specification of a shared conceptualisation of a domain
+}
+
+// Chapter 4, question 6
+::C4.6:: An RDF triple consists of {
+=a subject, a predicate and an object
+~a condition, an action and a priority
+~an input, a weight and an output
+~a class, a method and a field
+}
+
+// Chapter 4, question 7
+::C4.7:: The query language for RDF data is called {
+~Prolog
+~SQL
+=SPARQL
+~CLIPS
+}
+
+// Chapter 4, question 8
+::C4.8:: Two rules with the same condition and incompatible conclusions form {
+~a redundancy
+~a cycle
+~a dead-end rule
+=a contradiction
+}
+
+// Chapter 5, question 1
+::C5.1:: A formula that is true under any interpretation is called {
+~satisfiable
+~a contradiction
+=a tautology
+~a literal
+}
+
+// Chapter 5, question 2
+::C5.2:: The implication A ⇒ B is false only when {
+~A is false and B is true
+~both are false
+~both are true
+=A is true and B is false
+}
+
+// Chapter 5, question 3
+::C5.3:: Formula B is a logical consequence of the formulas of a knowledge base if {
+~B is true in at least one interpretation
+=B is true in every model of the knowledge base
+~B is a tautology regardless of the base
+~B is explicitly written as a fact in the knowledge base
+}
+
+// Chapter 5, question 4
+::C5.4:: The quantifier ∀ means {
+="for all"
+~"there exists"
+~"none"
+~"exactly one"
+}
+
+// Chapter 5, question 5
+::C5.5:: A Horn clause contains {
+~only existential quantifiers before the literals
+~exactly two literals, one of them negated
+~only positive literals without negations
+=at most one positive literal
+}
+
+// Chapter 5, question 6
+::C5.6:: Propositional logic does not allow one to express naturally {
+~only a conjunction of simple statements without variables
+~only an implication between two statements
+=statements about arbitrary objects of a class with quantifiers
+~only negations of individual statements
+}
+
+// Chapter 5, question 7
+::C5.7:: The number of rows of a truth table for a formula with n variables is {
+~n!
+=2^n
+~n^2
+~2n
+}
+
+// Chapter 5, question 8
+::C5.8:: The order of the quantifiers ∀x ∃y and ∃y ∀x {
+=changes the meaning of the statement
+~does not matter
+~makes it possible to remove the quantifiers
+~always gives a tautology
+}
+
+// Chapter 6, question 1
+::C6.1:: The modus ponens inference rule from A and A ⇒ B gives {
+~¬B
+=B
+~A ∧ ¬B
+~A
+}
+
+// Chapter 6, question 2
+::C6.2:: Unification is {
+~sorting rules
+~converting a formula into a truth table
+~removing quantifiers
+=finding a substitution that makes two expressions identical
+}
+
+// Chapter 6, question 3
+::C6.3:: The resolution method proves a formula by deriving {
+~all possible facts until the base stops growing
+~a truth table for all variables of the problem
+=the empty clause from the negation of the goal and the knowledge base
+~the goal itself directly from the facts of the knowledge base
+}
+
+// Chapter 6, question 4
+::C6.4:: Forward chaining moves {
+=from facts to conclusions
+~randomly
+~from the last rule to the first
+~from a hypothesis to facts
+}
+
+// Chapter 6, question 5
+::C6.5:: Backward chaining is convenient when {
+=there are few hypotheses and a specific one has to be checked
+~all consequences of the facts must be derived
+~there is no knowledge base, only data
+~there are few facts but many conclusions are needed
+}
+
+// Chapter 6, question 6
+::C6.6:: Prolog finds an answer with the strategy of {
+~gradient descent on the error
+~breadth-first search with a queue of goals
+=depth-first search with backtracking
+~random enumeration of all rules
+}
+
+// Chapter 6, question 7
+::C6.7:: The Rete algorithm speeds up inference by {
+~deleting rules
+~parallel computation on a graphics card
+~compressing the knowledge base
+=storing partial matches of conditions between cycles
+}
+
+// Chapter 6, question 8
+::C6.8:: The occurs check during unification prevents {
+~overflow of the fact memory during inference
+=infinite terms such as X \= f(X)
+~syntax errors in writing clauses
+~duplication of identical rules in the base
+}
+
+// Chapter 7, question 1
+::C7.1:: The entropy of a sample is maximal when {
+~all examples belong to one class
+~there are very many examples in the sample
+=the classes are represented in equal shares
+~all features of the sample are quantitative
+}
+
+// Chapter 7, question 2
+::C7.2:: The ID3 algorithm chooses for splitting the feature with the greatest {
+~number in the table
+~mean value
+~number of values
+=information gain
+}
+
+// Chapter 7, question 3
+::C7.3:: Each path from the root to a leaf of a decision tree corresponds to {
+~a class of vertices
+~a separate feature
+=a production rule
+~a data table
+}
+
+// Chapter 7, question 4
+::C7.4:: Overfitting of a tree shows itself in that {
+=the quality on the training data is high and on new data low
+~the tree has only one node and does not distinguish classes
+~the tree does not use any of the available features
+~training takes longer than planned
+}
+
+// Chapter 7, question 5
+::C7.5:: The recall of a classifier is the share of {
+=detected objects of the target class among all objects of that class
+~erroneous answers among all answers of the model
+~correct answers among all answers of the model
+~true objects of the target class among those assigned to it
+}
+
+// Chapter 7, question 6
+::C7.6:: Tree pruning is applied in order to {
+~speed up data collection
+~increase the number of leaves
+~convert the tree into a table
+=reduce overfitting
+}
+
+// Chapter 7, question 7
+::C7.7:: A random forest combines {
+~many trees trained on the same data with the same features
+=many trees trained on random subsamples and feature subsets
+~trees from different domains combined into one model
+~one deep tree supplemented by a neural network at the output
+}
+
+// Chapter 7, question 8
+::C7.8:: In C4.5 a quantitative feature {
+~is not used at all
+=is split by the threshold that gives the greatest gain
+~is split only in half at the median
+~is split into as many branches as there are values
+}
+
+// Chapter 8, question 1
+::C8.1:: The A∗ algorithm chooses for expansion the vertex with the smallest value of {
+~h(n)
+=f(n) \= g(n) + h(n)
+~the depth of the vertex
+~g(n)
+}
+
+// Chapter 8, question 2
+::C8.2:: A heuristic h(n) is admissible if it {
+=never overestimates the true cost to the goal
+~always exceeds the true cost to the goal
+~is always zero for all vertices of the graph
+~depends on chance and differs every time
+}
+
+// Chapter 8, question 3
+::C8.3:: Breadth-first search is guaranteed to find {
+~all paths at once
+~the longest path
+=the shortest path in terms of the number of steps
+~the path with the lowest cost for arbitrary weights
+}
+
+// Chapter 8, question 4
+::C8.4:: In a constraint satisfaction problem a solution is {
+=a complete assignment of variables that satisfies all constraints
+~the shortest path between two vertices of the constraint graph
+~a decision tree built from the constraint table
+~the maximum of the loss function over the variable values
+}
+
+// Chapter 8, question 5
+::C8.5:: Forward checking during backtracking search {
+~deletes constraints
+=removes incompatible values from the domains of unassigned variables
+~checks the solution after a complete assignment
+~sorts the variables alphabetically
+}
+
+// Chapter 8, question 6
+::C8.6:: The MRV heuristic first chooses the variable {
+~the last one in the list of variables
+~with the largest number of admissible values
+~a random one among the unassigned variables
+=with the smallest number of admissible values
+}
+
+// Chapter 8, question 7
+::C8.7:: In the STRIPS language an action is described by {
+~a class, slots and default values
+~the weight, bias and activation function of a neuron
+=preconditions, an add list and a delete list
+~a condition, a conclusion and a certainty factor
+}
+
+// Chapter 8, question 8
+::C8.8:: The reachability matrix of a graph shows {
+~the weight of each edge between two vertices
+~the degree of each vertex of the inference graph
+~the number of vertices and edges in the graph
+=whether there is a path from one vertex to another
+}
+
+// Chapter 9, question 1
+::C9.1:: Bayes' theorem makes it possible to compute {
+~the mean value of a sample of observations
+~the certainty factor of a production rule
+~the entropy of the hypothesis probability distribution
+=the posterior probability of a hypothesis given evidence
+}
+
+// Chapter 9, question 2
+::C9.2:: The base-rate trap is the neglect of {
+~the likelihood of the evidence under the hypothesis
+~the units of measurement of the object's features
+=the prior probability of a rare event
+~the size of the sample on which the test was evaluated
+}
+
+// Chapter 9, question 3
+::C9.3:: The naive Bayes classifier assumes {
+=conditional independence of features given the class
+~equal prior probabilities of all classes
+~a complete absence of noise in the training data
+~a linear dependence of the features on the class number
+}
+
+// Chapter 9, question 4
+::C9.4:: Laplace smoothing is needed to {
+~speed up the computation of class probabilities
+=avoid zero probabilities for new words
+~normalise the features to one scale
+~increase the number of classes in the classifier
+}
+
+// Chapter 9, question 5
+::C9.5:: In the PROSPECTOR system evidence was assessed with coefficients of {
+~confidence and doubt
+=sufficiency and necessity
+~membership
+~attention
+}
+
+// Chapter 9, question 6
+::C9.6:: A Bayesian network is {
+~a semantic network of concepts with "is-a" and "has" relations
+~a decision table with conditional probabilities for each rule
+=a directed acyclic graph of dependencies between random variables
+~a neural network with one hidden layer and a probabilistic output
+}
+
+// Chapter 9, question 7
+::C9.7:: If a test has a sensitivity of 0.99 and gives a false positive result in 5 % of healthy people, and a disease occurs in 1 in 1000, a positive result means {
+=that the probability of the disease is still small
+~the disease with a probability of about 0.99
+~the absence of the disease with high probability
+~a test error, because the disease is rare
+}
+
+// Chapter 9, question 8
+::C9.8:: Sequential updating over several pieces of evidence is possible if {
+~only one hypothesis is considered, without alternatives
+~all pieces of evidence arrive at once and are processed by one formula
+~all pieces of evidence are equally strong with equal likelihoods
+=the posterior probability after one piece of evidence becomes the prior for the next
+}
+
+// Chapter 10, question 1
+::C10.1:: The certainty factor CF takes values {
+~from 0 to 100
+~any real values
+=from −1 to 1
+~from 0 to 1
+}
+
+// Chapter 10, question 2
+::C10.2:: CF \= MB − MD, where MB and MD are {
+~the maximum and the minimum
+=the measures of belief and disbelief
+~the mean and the median
+~a weight and a bias
+}
+
+// Chapter 10, question 3
+::C10.3:: For two positive pieces of evidence Shortliffe's formula gives {
+~CF \= CF1 · CF2
+=CF \= CF1 + CF2(1 − CF1)
+~CF \= (CF1 + CF2) / 2
+~CF \= max(CF1, CF2)
+}
+
+// Chapter 10, question 4
+::C10.4:: The CF of the conclusion of a rule with a conjunctive condition is computed via {
+~the product of all condition CFs without the rule
+~the sum of the condition CFs multiplied by the rule CF
+~the maximum of the condition CFs multiplied by the rule CF
+=the minimum CF of the conditions multiplied by the rule's CF
+}
+
+// Chapter 10, question 5
+::C10.5:: The certainty factor model was first used in the system {
+=MYCIN
+~DENDRAL
+~XCON
+~PROSPECTOR
+}
+
+// Chapter 10, question 6
+::C10.6:: Dempster–Shafer theory, unlike the Bayesian approach, makes it possible to {
+~ignore evidence that contradicts other evidence
+~work only with two mutually exclusive hypotheses
+=represent ignorance explicitly by assigning mass to a set of hypotheses
+~do without numbers, using only verbal assessments
+}
+
+// Chapter 10, question 7
+::C10.7:: A rule activation threshold (for example, 0.2) is needed in order to {
+~increase the number of conclusions
+~avoid negations
+~increase the certainty of the conclusion
+=avoid propagating conclusions that are too weak
+}
+
+// Chapter 10, question 8
+::C10.8:: Combining positive and negative evidence {
+=may reduce the certainty in a hypothesis
+~always gives a certainty equal to 1
+~always gives a certainty equal to 0
+~is impossible under Shortliffe's formula
+}
+
+// Chapter 11, question 1
+::C11.1:: Kendall's coefficient of concordance assesses {
+~the competence of one individual expert
+=the consistency of the rankings of several experts
+~the number of criteria in the assessment problem
+~the accuracy of a model on test data
+}
+
+// Chapter 11, question 2
+::C11.2:: The Delphi method involves {
+=several anonymous rounds of questioning with feedback
+~an open discussion of experts until consensus is reached
+~a single vote of the experts by simple majority
+~a random choice of one expert from the group
+}
+
+// Chapter 11, question 3
+::C11.3:: In the analytic hierarchy process, the experts' judgements are recorded in {
+~a truth table
+~a state graph
+=a pairwise comparison matrix
+~a decision tree
+}
+
+// Chapter 11, question 4
+::C11.4:: The consistency ratio CR in the analytic hierarchy process is considered acceptable if it {
+~equals 1
+=does not exceed 0.1
+~is negative
+~is greater than 0.5
+}
+
+// Chapter 11, question 5
+::C11.5:: Anchoring is a cognitive trap in which the expert {
+~knows the domain of assessment poorly
+~refuses to answer the questions
+~assesses all risks too pessimistically
+=relies too much on the first number heard
+}
+
+// Chapter 11, question 6
+::C11.6:: Brainstorming is aimed above all at {
+=generating a large number of ideas without criticism
+~an exact numerical assessment of each proposed idea
+~testing hypotheses by statistical methods
+~ranking of alternatives by several criteria
+}
+
+// Chapter 11, question 7
+::C11.7:: Saaty's scale for pairwise comparisons has the values {
+~from −1 to 1, as for certainty factors
+~from 0 to 1 in steps of 0.1
+=from 1 to 9 and their reciprocals
+~from 1 to 100 per cent
+}
+
+// Chapter 11, question 8
+::C11.8:: An expert's competence-based weight is used in order to {
+~reduce the number of assessment criteria
+~replace the experts' assessments with a model forecast
+~exclude all dissenting experts from the group
+=give more weight to the opinions of more experienced experts
+}
+
+// Chapter 12, question 1
+::C12.1:: The membership function of a fuzzy set takes values {
+~from −1 to 1
+~any positive values
+~only 0 or 1
+=from 0 to 1
+}
+
+// Chapter 12, question 2
+::C12.2:: The intersection of fuzzy sets according to Zadeh is computed as {
+~the maximum of the membership degrees
+=the minimum of the membership degrees
+~the product and the sum
+~the sum of the degrees
+}
+
+// Chapter 12, question 3
+::C12.3:: The linguistic variable "temperature" has values such as {
+="low", "normal", "high"
+~only numbers from the universe of discourse
+~"yes" and "no" without intermediate values
+~0 and 1 as truth values
+}
+
+// Chapter 12, question 4
+::C12.4:: Centre-of-gravity defuzzification gives {
+~a membership function for a new term
+~the linguistic term closest to the input
+=a crisp output value from a fuzzy set
+~a new rule for the fuzzy rule base
+}
+
+// Chapter 12, question 5
+::C12.5:: In Sugeno inference the conclusion of a rule is {
+=a function of the inputs, most often linear or constant
+~a fuzzy set with a triangular membership function
+~a linguistic term of the system's output variable
+~a table of output values for each term
+}
+
+// Chapter 12, question 6
+::C12.6:: ANFIS learns the consequent parameters by the method of {
+~resolution
+=least squares
+~Viterbi
+~Monte Carlo
+}
+
+// Chapter 12, question 7
+::C12.7:: The number of rules of a fuzzy system with 4 inputs of 3 terms each is {
+~7
+~12
+=81
+~64
+}
+
+// Chapter 12, question 8
+::C12.8:: A fuzzy controller most often uses as inputs {
+~random numbers from a generator
+~the number of rules in the base
+~only the current operating time
+=the error and its rate of change
+}
+
+// Chapter 13, question 1
+::C13.1:: Supervised learning uses {
+~only object features without any labels
+~ready-made rules written by an expert
+~a reward signal from the environment
+=examples with known correct answers
+}
+
+// Chapter 13, question 2
+::C13.2:: The test set is used {
+=once at the end for an honest estimate
+~for filling in gaps in the training data
+~many times for hyperparameter tuning
+~at every epoch for training the parameters
+}
+
+// Chapter 13, question 3
+::C13.3:: Regularisation is aimed at combating {
+~insufficient memory
+~class imbalance
+=overfitting
+~missing values in the data
+}
+
+// Chapter 13, question 4
+::C13.4:: Data leakage shows itself as {
+~low quality already on the training data
+~an error when launching the training script
+~too long training even on a small sample
+=suspiciously high quality, unattainable in operation
+}
+
+// Chapter 13, question 5
+::C13.5:: For data with 1 % faults, accuracy {
+~always equals recall for the rare class
+=can be high even for a useless model
+~does not depend on the chosen decision threshold
+~always reflects the quality of the model exactly
+}
+
+// Chapter 13, question 6
+::C13.6:: The area under the ROC curve equals 0.5 for {
+~any linear model
+=random guessing
+~a perfect classifier
+~a classifier with a recall of 1
+}
+
+// Chapter 13, question 7
+::C13.7:: Gradient boosting builds an ensemble {
+~of one deep tree with pruned branches
+~of independent trees that vote by majority
+=sequentially, each tree correcting the errors of the previous ones
+~of neural networks trained in parallel on subsamples
+}
+
+// Chapter 13, question 8
+::C13.8:: The first principal component is the direction of {
+=the greatest variance of the data
+~the target variable
+~the smallest variance
+~the first feature of the table
+}
+
+// Chapter 14, question 1
+::C14.1:: An artificial neuron computes {
+=an activation function of the weighted sum of inputs and the bias
+~the product of all inputs without regard to the weights
+~the maximum of the inputs multiplied by the bias
+~the entropy of the inputs over the training sample
+}
+
+// Chapter 14, question 2
+::C14.2:: The ReLU activation function equals {
+~tanh(z)
+~1 / (1 + e^(−z))
+=max(0, z)
+~z²
+}
+
+// Chapter 14, question 3
+::C14.3:: The backpropagation algorithm computes {
+~the optimal architecture and number of layers of the network
+~new training examples from the existing ones
+~the number of neurons needed for the task
+=the gradients of the loss function with respect to all weights of the network
+}
+
+// Chapter 14, question 4
+::C14.4:: For multiclass classification the network output usually uses {
+~a step function
+~a linear function without normalisation
+~ReLU
+=softmax
+}
+
+// Chapter 14, question 5
+::C14.5:: Early stopping terminates the training of a network when {
+~the network has more than 100 neurons
+~the error on the training data equals zero
+=the error on the validation data stops decreasing
+~the data have run out
+}
+
+// Chapter 14, question 6
+::C14.6:: A Kohonen network is trained {
+~by the resolution method over network rules
+=without a teacher, arranging the neurons on a map
+~with reinforcement by a reward signal
+~with a teacher on object class labels
+}
+
+// Chapter 14, question 7
+::C14.7:: Convolutional networks are especially effective for {
+=images
+~fuzzy rules
+~logical inference
+~tables with a few features
+}
+
+// Chapter 14, question 8
+::C14.8:: The XOR problem is solved by {
+~a single-layer perceptron with a threshold function
+=a multilayer perceptron with a hidden layer
+~one neuron with sigmoid activation
+~linear regression with two inputs
+}
+
+// Chapter 15, question 1
+::C15.1:: A saddle point of a matrix game exists when {
+~the matrix is square
+~all elements of the matrix are equal
+~the game is non-zero-sum
+=the lower value of the game equals the upper value
+}
+
+// Chapter 15, question 2
+::C15.2:: A mixed strategy is {
+~the strategy of nature in a game under uncertainty
+~a combination of two payoff matrices into one
+=a probability distribution over pure strategies
+~a strategy that changes over time according to a schedule
+}
+
+// Chapter 15, question 3
+::C15.3:: The Wald criterion focuses on {
+~the minimum regret among all possible actions
+=the state of nature that is worst for the decision maker
+~the average result over all states of nature
+~the best result in the most favourable state
+}
+
+// Chapter 15, question 4
+::C15.4:: The Savage criterion minimises {
+~the variance of the results over the states
+=the maximum regret (lost benefit)
+~the average costs over all states
+~the minimum costs in the best state
+}
+
+// Chapter 15, question 5
+::C15.5:: A Nash equilibrium is a set of strategies in which {
+~both players receive equal payoffs regardless of their moves
+~the players agree and act jointly for a common gain
+=no player can improve their payoff by unilaterally changing strategy
+~the sum of all players' payoffs reaches its maximum possible value
+}
+
+// Chapter 15, question 6
+::C15.6:: The minimax value of a MIN player's vertex equals {
+=the minimum of the values of its children
+~the value of the first child
+~the mean of the children's values
+~the maximum of the children's values
+}
+
+// Chapter 15, question 7
+::C15.7:: Alpha-beta pruning {
+=gives the same result as minimax while examining fewer positions
+~works only for games against nature, not against an opponent
+~examines more positions than minimax but is more accurate
+~gives an approximate result but examines half as many positions
+}
+
+// Chapter 15, question 8
+::C15.8:: The Hurwicz criterion with coefficient α combines {
+~the probabilities of the states
+~the mean and median results
+~regret and cost
+=the worst and the best outcomes of an action
+}
+
+// Chapter 16, question 1
+::C16.1:: CLIPS is {
+=a shell for building production expert systems
+~an ontology markup language for the Semantic Web
+~a relational database management system
+~a deep learning library for the Python language
+}
+
+// Chapter 16, question 2
+::C16.2:: The structure of facts in CLIPS is described by the construct {
+~defrule
+=deftemplate
+~defglobal
+~deffunction
+}
+
+// Chapter 16, question 3
+::C16.3:: The EU Artificial Intelligence Act classifies systems by {
+=risk level
+~model size
+~programming language
+~the developer's country
+}
+
+// Chapter 16, question 4
+::C16.4:: The NIST AI RMF contains the functions\: {
+~Analyze, Design, Implement, Maintain (analysis, design, implementation, maintenance)
+~Collect, Clean, Train, Serve (collection, cleaning, training, serving)
+~Plan, Build, Test, Deploy (planning, building, testing, deployment)
+=Govern, Map, Measure, Manage
+}
+
+// Chapter 16, question 5
+::C16.5:: Automation bias is {
+~a compiler error when building the system
+~overfitting of the model on outdated data
+=people's tendency to trust the decisions of an automated system excessively
+~the bias built into the system's training data when they were collected
+}
+
+// Chapter 16, question 6
+::C16.6:: In the hybrid scheme "expert system + language model" the language model {
+~makes the diagnosis, and the expert system only checks it
+~teaches the expert system new rules from documents
+=formulates the explanation, while the expert system draws the conclusion
+~only translates the system interface into other languages
+}
+
+// Chapter 16, question 7
+::C16.7:: An intelligent control system works in a loop of {
+~collecting, compiling, launching and paying
+~monitoring, archiving, publishing and exporting
+~modelling, automation, programming and exploitation
+=monitoring, analysis, planning and execution
+}
+
+// Chapter 16, question 8
+::C16.8:: The Concept for the Development of Artificial Intelligence in Ukraine was approved in {
+~2024
+=2020
+~2015
+~2010
+}
+
+// Chapter 17, question 1
+::C17.1:: A large language model generates text by successively predicting {
+~the whole next sentence
+~the keywords of the query
+~an answer from a database of facts
+=the next token
+}
+
+// Chapter 17, question 2
+::C17.2:: Raising the generation temperature makes the answers {
+~fully deterministic and identical
+=more diverse but less predictable
+~more accurate and closer to the facts
+~shorter and clearer in form
+}
+
+// Chapter 17, question 3
+::C17.3:: In the self-attention mechanism the attention weights are computed from the similarity of {
+=queries and keys
+~values and outputs
+~tokens and the vocabulary
+~network layers
+}
+
+// Chapter 17, question 4
+::C17.4:: During a tool call the language model {
+=returns a request to call a function, and the program executes it
+~accesses the database directly without the program
+~executes the function code itself on the developer's server
+~changes its architecture for each function
+}
+
+// Chapter 17, question 5
+::C17.5:: The MCP protocol standardises {
+~transferring images between applications
+=connecting tools and data to applications with language models
+~training language models on application data without user consent
+~encrypting traffic between the client and the model server
+}
+
+// Chapter 17, question 6
+::C17.6:: Prompt injection is an attack in which {
+~the model is overloaded with requests and stops responding
+~an attacker changes the model weights on the server
+=external text contains instructions that change the model's behaviour
+~an attacker forges an API key to gain access
+}
+
+// Chapter 17, question 7
+::C17.7:: The MRR metric equals 1 when {
+~there are no relevant chunks in the base
+~all chunks are equally relevant
+~all relevant chunks have been found
+=the correct chunk is always first in the list
+}
+
+// Chapter 17, question 8
+::C17.8:: For frequently changing facts and answers with citations, the better choice is {
+~removing the system instruction
+~fine-tuning the model
+=retrieval-augmented generation
+~raising the temperature
+}
+
+// Chapter 18, question 1
+::C18.1:: Condition-based maintenance means {
+~replacement of the unit by a remaining useful life forecast
+=intervention when monitored parameters go beyond set limits
+~repair by the calendar regardless of the unit's condition
+~repair only after the unit has failed and the crew has filed a report
+}
+
+// Chapter 18, question 2
+::C18.2:: The RUL target variable is capped from above because {
+=early in life the sensors carry no information about a distant failure
+~this way the model trains faster and needs less memory
+~otherwise a random forest cannot work with the target variable
+~large values of the remaining life cannot be stored in a file
+}
+
+// Chapter 18, question 3
+::C18.3:: The asymmetric NASA score penalises more heavily {
+~early forecasts
+~accurate forecasts
+=late forecasts (overestimated life)
+~linear regression forecasts
+}
+
+// Chapter 18, question 4
+::C18.4:: The data for training and testing a RUL model are split {
+~by individual records at random
+~by sensors
+~they are not split
+=by units
+}
+
+// Chapter 18, question 5
+::C18.5:: At each step the Kalman filter performs {
+~clustering
+~only smoothing
+~network training
+=a prediction and a correction of the state
+}
+
+// Chapter 18, question 6
+::C18.6:: The Viterbi algorithm finds {
+~the parameters of the Kalman filter for the signal
+=the most probable sequence of hidden states
+~the optimal number of hidden states of the model
+~the mean value of the signal over the observation window
+}
+
+// Chapter 18, question 7
+::C18.7:: A 90 % conformal lower bound of the RUL guarantees that {
+=the actual life is not less than the bound in at least 90 % of cases
+~the model correctly predicts the remaining life in 90 % of all cases
+~the forecast error does not exceed 10 % of the value
+~the bound coincides with the forecast in 90 % of cases
+}
+
+// Chapter 18, question 8
+::C18.8:: Exponential smoothing gives {
+~greater weight to the oldest observations
+~weight only to the first observation
+=greater weight to the most recent observations
+~equal weight to all observations
+}
+
+// Chapter 19, question 1
+::C19.1:: Regular expressions are appropriate for extracting {
+~the sentiment of customer reviews of services
+=fields with a stable format\: dates, numbers, codes
+~arbitrary statements from text of any structure
+~translating records from Ukrainian into English
+}
+
+// Chapter 19, question 2
+::C19.2:: Character n-grams are useful for Ukrainian because they {
+~do not require text
+~work only with English
+=are robust to different word forms and typos
+~reduce the number of features to one
+}
+
+// Chapter 19, question 3
+::C19.3:: Lemmatisation reduces a word form to {
+~the Latin alphabet
+~its first five letters
+~a numerical code
+=its dictionary form
+}
+
+// Chapter 19, question 4
+::C19.4:: A Latin "p" in the word "тpиває" means for a program that {
+~the word is correct and needs no changes
+=the word does not match the correct Cyrillic one
+~the font in the document must be changed
+~the text is written in English
+}
+
+// Chapter 19, question 5
+::C19.5:: Named entity recognition finds in a text {
+~the number of sentences and words in a document
+~the sentiment and emotional colouring of the text
+~grammatical errors in log records
+=names of organisations, dates, codes, parts, etc.
+}
+
+// Chapter 19, question 6
+::C19.6:: When extracting data with a language model, a JSON schema is needed in order to {
+=obtain answers in a fixed format for programmatic processing
+~completely replace human checking of the result
+~reduce the cost of requests to zero for structured data
+~speed up the model several times thanks to the schema
+}
+
+// Chapter 19, question 7
+::C19.7:: An IBAN checksum is verified by {
+~the first letter of the code, which must be U
+~the sum of all digits, which must be divisible by 10
+=the remainder of division by 97, which must equal 1
+~the number of digits, which must equal 29
+}
+
+// Chapter 19, question 8
+::C19.8:: The quality of entity extraction is assessed by {
+=precision, recall and F1 score at the entity level
+~the model size and the amount of memory
+~the number of tokens in the recognised entities
+~only the processing time of one document
+}
+
+// Chapter 20, question 1
+::C20.1:: Collaborative filtering recommends on the basis of {
+~random selection of items from the whole catalogue
+=the behaviour of similar users or the similarity of items by ratings
+~only the item description\: genre, author, keywords
+~the item price and the size of its discount
+}
+
+// Chapter 20, question 2
+::C20.2:: The cold start problem arises for {
+=new users and items without a history
+~users with a long interaction history
+~popular items with a large number of ratings
+~large catalogues with millions of items
+}
+
+// Chapter 20, question 3
+::C20.3:: Matrix factorisation represents the rating matrix as {
+~a diagonal matrix of the users' average ratings
+~a decision table with recommendation rules
+~the sum of two rating matrices for different periods
+=the product of matrices of latent factors of users and items
+}
+
+// Chapter 20, question 4
+::C20.4:: Implicit feedback is {
+~a written review of the item by the user
+~a rating from 1 to 5 that the user gives explicitly
+=a user's action (a view, a loan) rather than an explicit rating
+~a user complaint to the support service
+}
+
+// Chapter 20, question 5
+::C20.5:: HR@10 is the share of users for whom {
+=the held-out item got into the 10 recommendations
+~the rating exceeds 10
+~10 recommendations turned out to be popular
+~10 % of the catalogue is recommended
+}
+
+// Chapter 20, question 6
+::C20.6:: Recommending the most popular items has a drawback\: {
+~high computational complexity even for small catalogues
+=low catalogue coverage and the same recommendations for everyone
+~inability to recommend anything to new users
+~the need for neural networks to count popularity
+}
+
+// Chapter 20, question 7
+::C20.7:: The cosine similarity of items is computed from {
+~item prices and the difference between them
+~the dates the items were added to the catalogue
+~item names and the words they share
+=the vectors of ratings of these items by different users
+}
+
+// Chapter 20, question 8
+::C20.8:: Regularisation in matrix factorisation is needed to {
+~get rid of inactive users in the data
+~speed up loading of the rating matrix
+=prevent overfitting on sparse data
+~increase the number of latent factors
+}
+
+// Chapter 21, question 1
+::C21.1:: The convolution operation computes {
+=a weighted sum of pixel values in the kernel window
+~the mean value of the whole image
+~the maximum brightness of the whole image
+~a colour histogram in the kernel window
+}
+
+// Chapter 21, question 2
+::C21.2:: A max pooling layer {
+=reduces the size of the feature map by taking the maximum in a window
+~turns the image into a text description
+~increases the image resolution by interpolation
+~adds noise to the feature map for robustness
+}
+
+// Chapter 21, question 3
+::C21.3:: Transfer learning uses {
+~training without any data from the target task
+=a network pre-trained on a large dataset
+~expert rules instead of training the network
+~a network with only random initial weights
+}
+
+// Chapter 21, question 4
+::C21.4:: Data augmentation is {
+~compressing image files for faster training
+~manual labelling of images by several experts
+~removing blurred and poor images from the sample
+=artificial expansion of the training sample by image transformations
+}
+
+// Chapter 21, question 5
+::C21.5:: Grad-CAM maps show {
+~the learning speed of the network by epoch
+~the number of parameters in each layer of the network
+=the areas of the image that influenced the decision most
+~the network architecture layer by layer, from input to output
+}
+
+// Chapter 21, question 6
+::C21.6:: In the crack case study the convolutional network outperforms hand-crafted features because it {
+~it guarantees 100 % accuracy on new images
+=captures the shape and connectedness of a crack
+~it does not need any training data
+~it works on the camera without a separate computer
+}
+
+// Chapter 21, question 7
+::C21.7:: Image segmentation answers the question {
+~how many images the dataset contains
+~what size each image has
+~which class the whole image belongs to
+=which class each pixel belongs to
+}
+
+// Chapter 21, question 8
+::C21.8:: The number of parameters of a convolutional layer, as a function of the input image size, {
+~decreases
+~grows linearly
+=does not depend on it
+~grows quadratically
+}
+
+// Chapter 22, question 1
+::C22.1:: A genetic algorithm operates on {
+~a matrix of expert assessments
+~a tree of inference rules
+=a population of candidate solutions
+~a single current solution
+}
+
+// Chapter 22, question 2
+::C22.2:: Tournament selection chooses as a parent {
+~a random candidate without comparison with others
+~the worst of several randomly drawn candidates
+~always the best candidate in the whole population
+=the best of several randomly taken candidates
+}
+
+// Chapter 22, question 3
+::C22.3:: Mutation in a genetic algorithm is needed to {
+~speed up crossover and reduce the number of generations
+=maintain diversity and explore new regions of the space
+~shrink the population to a few best individuals
+~stop the search as soon as the first solution is found
+}
+
+// Chapter 22, question 4
+::C22.4:: Elitism means {
+~crossing only the worst individuals of the population
+~random selection of all individuals of the new generation
+~removing the best individuals to avoid stagnation
+=carrying the best individuals over to the new generation unchanged
+}
+
+// Chapter 22, question 5
+::C22.5:: The hard timetable constraints in the case study are taken into account by {
+=large penalties in the fitness function
+~changing the number of classrooms in the problem
+~removing chromosomes from the population for good
+~in no way, because constraints are ignored
+}
+
+// Chapter 22, question 6
+::C22.6:: For a routing problem a convenient encoding is {
+=a permutation of the locations
+~a fixed-length binary string
+~a tree
+~a single real number
+}
+
+// Chapter 22, question 7
+::C22.7:: A genetic algorithm is appropriate when {
+~the problem is linear and small, with a few variables
+=the function is complex or discontinuous and exact methods are unsuitable
+~an analytical solution of the problem is known
+~a strict guarantee of the global optimum is required
+}
+
+// Chapter 22, question 8
+::C22.8:: Premature convergence is {
+~the absence of mutations at the end of the algorithm
+~finding the global optimum already in the first generation
+=the loss of population diversity before a good solution is found
+~too long a search that lasts thousands of generations
+}
+
+// Chapter 23, question 1
+::C23.1:: A model package for deployment should contain, besides the model itself, {
+~database passwords, access keys and developer accounts
+~only the model weights without any description
+~the source code of the Python compiler
+=metadata\: version, features, metrics, data statistics
+}
+
+// Chapter 23, question 2
+::C23.2:: Checking a service's input data against physical limits protects against {
+~concept drift in new data
+~slow requests to the model service
+~overfitting of the model on old data
+=input errors and impossible values
+}
+
+// Chapter 23, question 3
+::C23.3:: Concept drift is a change in {
+~the version of the machine learning library
+=the relationship between the features and the target variable
+~the format of the file in which the model is stored
+~the distribution of the model's input features only
+}
+
+// Chapter 23, question 4
+::C23.4:: In monitoring, the Kolmogorov–Smirnov test compares {
+~two models by accuracy on test data
+~the service response time before and after an update
+=the distributions of a feature in the training and new data
+~the number of requests to the service per day
+}
+
+// Chapter 23, question 5
+::C23.5:: A PSI value above 0.25 is usually interpreted as {
+~a computation error
+=a strong shift of the distribution
+~a negligible change
+~stability
+}
+
+// Chapter 23, question 6
+::C23.6:: Monitoring the distribution of the model's scores without new labels does not detect {
+=concept drift
+~input errors
+~input shift
+~a change in the customer mix
+}
+
+// Chapter 23, question 7
+::C23.7:: The /health endpoint of a service is needed for {
+~training the model on new data
+~changing the model weights during operation
+=checking that the service works and the model version
+~deleting the service request log
+}
+
+// Chapter 23, question 8
+::C23.8:: The highest levels of MLOps maturity involve {
+=automatic retraining and deployment with monitoring
+~a single model without versions or a registry
+~manual running of notebooks for each training
+~deployment without tests and without monitoring
+}
+
+// Chapter 24, question 1
+::C24.1:: The permutation importance of a feature is {
+~the number of distinct values of the feature in the training sample
+~the correlation of the feature with the other features of the sample
+~the weight of the feature in a linear model trained on the same data
+=the drop in model quality after randomly shuffling the values of the feature
+}
+
+// Chapter 24, question 2
+::C24.2:: Partial dependence shows {
+~the model errors on each example of the sample
+~the distribution of the feature values in the training sample
+=the mean prediction of the model as a function of the value of one feature
+~the structure of the trees inside the model ensemble
+}
+
+// Chapter 24, question 3
+::C24.3:: Shapley values have the efficiency property\: {
+=the sum of the contributions equals the difference between the prediction and the base value
+~the sum of the contributions equals one for each object
+~the contributions of all features are equal for each prediction
+~all feature contributions are positive and inversely proportional to the weights
+}
+
+// Chapter 24, question 4
+::C24.4:: The LIME method explains a decision with {
+~the model's confusion matrix on test data
+=a simple model trained on perturbations near the object
+~the gradient of the prediction with respect to the network weights
+~the structure of the expert system's knowledge base
+}
+
+// Chapter 24, question 5
+::C24.5:: A counterfactual explanation answers the question {
+~how many features the model uses for the decision
+=what is the minimal change that would make the decision different
+~who developed and trained the model and when
+~what share of the model's answers is correct
+}
+
+// Chapter 24, question 6
+::C24.6:: A global surrogate is {
+=a simple interpretable model that approximates the behaviour of a complex one
+~an exact copy of the complex model with the same parameters
+~a set of tests that checks the complex model
+~a model with more parameters than the original
+}
+
+// Chapter 24, question 7
+::C24.7:: Correlation of features can distort {
+~only the training speed of a random forest
+~only the format of the model's output data
+~only the size of the model after saving
+=permutation importance and partial dependence
+}
+
+// Chapter 24, question 8
+::C24.8:: Explanations show the associations found by the model, but not necessarily {
+~the model's predictions for examples
+~numerical values of the features
+=cause-and-effect relationships
+~the features the model relies on
+}
+
+// Chapter 25, question 1
+::C25.1:: The four-fifths rule requires that the share of positive decisions for a group be {
+~the same for all groups to within 5 %
+=at least 0.8 of the share for the most favoured group
+~no greater than 0.8 of the share for the most favoured group
+~exactly 80 % of the total number of decisions
+}
+
+// Chapter 25, question 2
+::C25.2:: Equal opportunity requires an equal {
+=share of positive decisions among the objects that deserve a positive decision
+~the number of objects of each group in the training sample
+~the share of errors of all kinds among all objects of the group
+~the share of correct answers of a model computed for all groups together without splitting
+}
+
+// Chapter 25, question 3
+::C25.3:: Removing the sensitive attribute does not eliminate bias because {
+~the model becomes more accurate
+~the attribute is restored automatically
+~the data become imbalanced
+=other features may act as its proxies
+}
+
+// Chapter 25, question 4
+::C25.4:: The reweighting of Kamiran and Calders changes {
+~the class labels
+~the thresholds for each group
+=the weights of the training examples
+~the model architecture
+}
+
+// Chapter 25, question 5
+::C25.5:: A model card describes {
+~only the model accuracy on test data
+=the purpose, data, metrics by group and limitations of the model
+~the licence price and payment terms
+~the complete model training code together with all the training data
+}
+
+// Chapter 25, question 6
+::C25.6:: Among the rights of the data subject, the Law of Ukraine "On Personal Data Protection" names {
+=protection against an automated decision with legal consequences
+~the right to free training of models on one's own data
+~mandatory anonymity of all data in an organization
+~a ban on any processing of personal data
+}
+
+// Chapter 25, question 7
+::C25.7:: At its first stage, the Ministry of Digital Transformation's "bottom-up" approach to AI regulation involves {
+~mandatory certification of all models before launch
+~an immediate ban on AI systems in the public sector
+~abandoning European norms in favour of national ones
+=voluntary tools\: sandboxes, codes of conduct, methodologies
+}
+
+// Chapter 25, question 8
+::C25.8:: APU-Expert, which advises a technician, belongs under the EASA guidance to level {
+~2 – human–system interaction
+~none, because the system only advises
+=1 – assistance to a human
+~3 – autonomous decisions under human oversight
+}
+
+// Chapter 26, question 1
+::C26.1:: An adversarial example is an input {
+~taken directly from the training sample
+~that contains ordinary sensor noise
+=imperceptibly changed so that the model errs
+~with missing values of some features
+}
+
+// Chapter 26, question 2
+::C26.2:: The FGSM method shifts the input in the direction of {
+~random Gaussian noise
+~the mean value of the input pixels
+=the sign of the gradient of the loss function with respect to the input
+~the gradient of the loss with respect to the weights
+}
+
+// Chapter 26, question 3
+::C26.3:: Adversarial training consists in {
+=training the model on adversarial examples for its current parameters
+~removing all suspicious and noisy examples from the sample
+~training two identical models and voting between them
+~increasing the learning rate for faster convergence
+}
+
+// Chapter 26, question 4
+::C26.4:: A backdoor in a model is activated {
+=by a rare trigger in the input data
+~only on examples from the training data
+~on every input regardless of its content
+~after the model server is restarted
+}
+
+// Chapter 26, question 5
+::C26.5:: A membership inference attack determines {
+~the number of model parameters
+~who owns the model
+~the programming language
+=whether a record was in the training sample
+}
+
+// Chapter 26, question 6
+::C26.6:: In differential privacy a smaller budget ε means {
+~more accurate statistics without loss of privacy
+=stronger protection and more noise
+~weaker protection and less noise
+~a complete absence of noise in the answers
+}
+
+// Chapter 26, question 7
+::C26.7:: In federated learning, the participants exchange {
+~user passwords and keys
+=model parameters, not data
+~only class labels without features
+~all the clients' training data
+}
+
+// Chapter 26, question 8
+::C26.8:: An indirect prompt injection arrives {
+~only from the user in the chat directly
+~through an update of the model weights by the developer
+~through the developer's keyboard during debugging
+=through documents, web pages or tool results
+}

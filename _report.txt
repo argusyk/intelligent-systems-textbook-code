@@ -1,0 +1,112 @@
+OK   code\ch01\listing_01.py: ['H1: забруднені форсунки']
+OK   code\ch01\listing_02.py: властивості, яких бракує всім системам: немає
+OK   code\ch02\listing_01.py: точність на 100 квітках: 1.00
+OK   code\ch03\listing_01.py: R3: ['fuel_nozzles_dirty'] -> action_clean_nozzles
+OK   code\ch03\listing_02.py: найбільш пов'язані конструкти: «вібрація» і «падіння тиску масла», r = 0.85
+OK   code\ch03\listing_03.py: рекомендації: ['порада:_ввести_новий_пароль', 'порада:_перезавантажити_мережевий_адаптер']
+OK   code\ch04\listing_01.py: True -25
+--   code\ch04\listing_02.ttl: не перевірялось (ttl)
+OK   code\ch04\listing_03.py:   слабкий стартер: 1, 2
+OK   code\ch04\listing_04.py: цикли у плані: немає
+OK   code\ch05\listing_01.py: (False, {'e': True, 's': False, 'n': False})
+--   code\ch05\listing_02.pl: не перевірялось (pl)
+OK   code\ch05\listing_03.py: є порушення
+OK   code\ch06\listing_01.py: None
+OK   code\ch06\listing_02.py: EGT перевищує 680 °C? (так/ні/чому): Запуск довший за 45 с? (так/ні/чому): H1 підтверджено
+OK   code\ch06\listing_03.py: => стипендія доведено варіантом 2
+OK   code\ch07\listing_01.py: |   |   |--- class: так
+OK   code\ch07\listing_02.py: |   |   |   |--- class: 1
+OK   code\ch08\listing_01.py: [ 1  1  1  0 -2 -1]
+OK   code\ch08\listing_02.py: (14, ['S', 'A', 'D', 'G'])
+OK   code\ch08\listing_03.py:   03:00-04:00  пробний запуск  (механіки)
+OK   code\ch08\listing_04.py: 9. пробний запуск
+OK   code\ch08\listing_05.py: .#***#.##G
+OK   code\ch09\listing_01.py: висока витрата   0.851 0.142 0.001 0.004 0.001 0.002
+OK   code\ch09\listing_02.py: P(спам) = 0.624  <- Підтвердіть пароль до рахунку сьогодні
+OK   code\ch10\listing_01.py: ['washed_recently'] -> -0.60; сумарно +0.130
+OK   code\ch10\listing_02.py: INC-103: CF = -0.66 -> закрити
+OK   code\ch11\listing_01.py: пріоритети A1..A3: [0.222 0.366 0.412]
+OK   code\ch11\listing_02.py: найгірший CR серед матриць альтернатив: 0.033
+OK   code\ch12\listing_01.py: 60.6
+OK   code\ch12\listing_02.py: правило 9: ЯКЩО EGT висока І запуск затяжний, ТО ризик = 21.7 +20.1*x1 +20.6*x2
+OK   code\ch12\listing_03.py: борг  70 %, історія  9: ризик 86.7
+OK   code\ch13\listing_01.py: з ознакою-витоком            F1 = 0.965
+OK   code\ch13\listing_02.py: випадковий ліс       F1 = 0.868 +- 0.018
+OK   code\ch13\listing_03.py: при порозі 0.04: recall=0.817 precision=0.200
+OK   code\ch13\listing_04.py: логістична + |EGT-в.| F1 = 0.855  ROC AUC = 0.974
+OK   code\ch13\listing_05.py: кореляція ГК2 з навантаженням і зносом: -0.48 0.8
+OK   code\ch13\listing_06.py: виявлено штучних збоїв: [100, 101, 250] з [100, 101, 250]
+OK   code\ch14\listing_01.py: [0.    0.999 0.999 0.002]
+OK   code\ch14\listing_02.py: найчастіші плутанини (справжня, передбачена, к-сть): [(3, 2, 2), (4, 8, 2), (6, 1, 2), (8,
+OK   code\ch15\listing_01.py: ціна гри: 3.0 стратегія служби: [0.333 0.667]
+OK   code\ch15\listing_02.py: альфа-бета  ціна гри = +0, розглянуто позицій: 18297
+OK   code\ch15\listing_03.py: P(цільова) = 0.55: за Байєсом -> повний захист + SOC
+OK   code\ch16\listing_01.clp: правил спрацювало 8; ['(hyp (name H1-nozzles) (cf 0.85))', '(hyp (name H2-regulator) (cf 0.6))']
+FAIL code\ch16\listing_02.py: TypeError: "Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for one of the `X-Api-Key` or `Authorizat
+OK   code\ch16\listing_03.py: яка погода в Києві -> немає відповіді в базі: передати оператору
+OK   code\labs\listing_01.py: 
+--   code\labs\listing_02.pl: не перевірялось (pl)
+OK   code\labs\listing_03.py: 
+FAIL code\labs\listing_04.py: NameError: name 'sim' is not defined. Did you mean: 'sum'?
+FAIL code\labs\listing_05.py: NameError: name 'LogisticRegression' is not defined
+OK   code\labs\listing_06.py: Байєса         [28.7 33.5 61.1]  ->  A1
+OK   code\labs\listing_07.py: recall@1, MRR: (0.25, 0.583)
+OK   code\labs\listing_08.py: нижні межі для прогнозів 80 і 40: [62.4 22.4]
+OK   code\labs\listing_09.py: сильний зсув         PSI = 1.126
+OK   code\labs\listing_10.py: {'частки позитивних': array([0.488, 0.323]), 'відношення': 0.662, 'рівність можливостей': 
+OK   code\cases\case01.py: властивості, яких бракує всім системам: немає
+OK   code\cases\case02.py: точність на 100 квітках: 1.00
+OK   code\cases\case03.py: рекомендації: ['порада:_ввести_новий_пароль', 'порада:_перезавантажити_мережевий_адаптер']
+OK   code\cases\case04.py: цикли у плані: немає
+OK   code\cases\case05.py: є порушення
+OK   code\cases\case06.py: => стипендія доведено варіантом 2
+OK   code\cases\case07.py: |   |   |   |--- class: 1
+OK   code\cases\case08.py: .#***#.##G
+OK   code\cases\case09.py: P(спам) = 0.624  <- Підтвердіть пароль до рахунку сьогодні
+OK   code\cases\case10.py: INC-103: CF = -0.66 -> закрити
+OK   code\cases\case11.py: найгірший CR серед матриць альтернатив: 0.033
+OK   code\cases\case12.py: борг  70 %, історія  9: ризик 86.7
+OK   code\cases\case13.py: виявлено штучних збоїв: [100, 101, 250] з [100, 101, 250]
+OK   code\cases\case14.py: найчастіші плутанини (справжня, передбачена, к-сть): [(3, 2, np.int64(2)), (4, 8, np.int64
+OK   code\cases\case15.py: P(цільова) = 0.55: за Байєсом -> повний захист + SOC
+OK   code\cases\case16.py: яка погода в Києві -> немає відповіді в базі: передати оператору
+OK   code\cases\case17.py: точність 9/10, повторних запитів 4, відмов 0
+OK   code\cases\case18.py: відкладений тиждень  інтервал ±16.0 кВт·год, покриття на перевірці 0.89 (ціль 0,90)
+OK   code\cases\case19.py: {'номер': '2026/77', 'дата': '15.09.2026', 'РНОКПП': '3012456789', 'IBAN': 'UA503220011000
+OK   code\cases\case20.py: покриття каталогу рекомендаціями: популярні 10 з 120, схожі 73 з 120
+OK   code\cases\case21.py: згорткова мережа:             точність 0.875
+OK   code\cases\case22.py: остаточний штраф: 0 | занять на останній парі: 0
+OK   code\cases\case23.py: місяць 6: PSI = 0.488 (сильний зсув) ROC AUC = 0.571, частка дефолтів 0.23
+OK   code\cases\case24.py: прогноз 357; нижче 200, якщо знизити ІМТ на 0.3 і тригліцериди на 1.7 стандартного відхиле
+OK   code\cases\case25.py: ціль – успішність, тест    відбір А/Б 0.33/0.33 (відношення 1.00); успішних відібрано А/Б 
+OK   code\cases\case26.py: ваги ознаки «відомий домен»: -0.14 -> -7.32
+OK   code\ch17\agent.py: Найімовірніша причина: забруднені форсунки (CF = 0.85, правила R5, R12). Рекомендую огляд 
+OK   code\ch17\attention.py: вихід шару для «затяжний»: [-0.29  0.94 -0.64  0.42]
+OK   code\ch17\evaluate.py: повнота фактів 0.75; безпечних 3/4; з посиланням на правило 3/4
+OK   code\ch17\mcp_server.py:  search_manual: [{'section': '49-50', 'text': 'Масляна система. Нормальний тиск масла на р
+OK   code\ch17\multiagent.py: Підсумок: Установка UR-PSA: ймовірна причина – забруднені форсунки, CF = 0.85 (правила R5,
+OK   code\ch17\rag.py: вигадана відповідь: обґрунтованість 0.25
+OK   code\ch18\forecast.py: Холт (тренд)         MAE = 4.06
+OK   code\ch18\intervals.py: рівень 95%: запас q =  26.5 циклів, покриття на тесті 0.95, середня нижня межа  57.9 при с
+OK   code\ch18\rul.py: випадковий ліс     RMSE =  12.0 циклів   NASA score =    64.7   пізніх прогнозів 9/20
+OK   code\ch18\state_models.py: перемикань стану: пороги 36 , ПММ 2
+OK   code\ch19\journal.py: 73  <- Замінено паливний насос двигуна 1
+OK   code\ch19\llm_extract.py: відповідає схемі: (True, [])
+OK   code\ch19\ukr_text.py: скільки триває промивка форсунок, м'ята 'інструкція'?
+OK   code\ch20\next_check.py: після ['масляний фільтр']: [('підшипник', 1.0), ('форсунки', 0.29), ('стартер', 0.0)]
+OK   code\ch20\recsys.py: матрична факторизація  RMSE = 0.584   precision@2 = 0.43
+OK   code\ch21\conv_demo.py:  [0 4 0]]
+OK   code\ch21\defects_cnn.py: багатошаровий перцептрон   параметрів  65795   точність на тесті 0.510
+OK   code\ch22\ga_route.py: найближчий сусід: 3892 м;  генетичний алгоритм: 3297 м;  випадковий маршрут: 7786 м
+OK   code\ch22\ga_tasks.py: найкраща користь за поколіннями 0, 10, 50, 149: [133, 210, 212, 212]
+OK   code\ch23\drift.py: липень (спека)  egt: PSI=0.400 p=0.000 ДРЕЙФ | start_time: PSI=0.019 p=0.880 норма
+OK   code\ch23\service.py: 
+OK   code\ch23\test_service.py: помилка введення EGT = 7050: 422 Input should be less than or equal to 900
+OK   code\ch23\train_and_package.py: }
+OK   code\ch24\explain.py: точність відтворення лісу деревом-сурогатом на тесті: 0.955
+OK   code\ch25\fairness.py: 4) + поріг для B = 0.36            схвалено A 0.49 B 0.41 | DI = 0.85 | TPR A 0.75 B 0.77 
+OK   code\ch26\adversarial.py: цифра 3: передбачено 3 -> після атаки 2
+OK   code\ch26\poisoning.py: бекдор: повнота на чистих даних 0.918, на несправних з тригером 0.017
+OK   code\ch26\privacy.py: F1 федеративна модель: 0.833; F1 централізована (усі дані разом): 0.831
+OK   code\data\cmapss.py: {'min': 165.0, 'mean': 242.0, 'max': 277.0}
+OK   code\data\movielens.py: користувачів 50, фільмів 80, оцінок 811, заповненість матриці 20.3%
